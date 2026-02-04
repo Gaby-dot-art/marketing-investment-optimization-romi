@@ -1,61 +1,112 @@
-# Marketing ROMI Optimization — Showz Events
+📣 Marketing ROMI Optimization — Showz Events
+Turning Marketing Spend into Profitable Decisions
+📌 Contexto del proyecto
 
-## Project Overview
-This project analyzes marketing performance for **Showz Events** between **January 2017 and December 2018**.
-The main objective is to optimize marketing investment by evaluating the relationship between customer acquisition costs and generated value, focusing on return-oriented decision making.
+Las empresas invierten grandes presupuestos en marketing, pero no todos los canales generan valor real.
+Un costo de adquisición bajo puede parecer atractivo, pero si los clientes no generan ingresos sostenibles, la inversión termina siendo ineficiente.
 
-The analysis prioritizes **ROMI (Return on Marketing Investment)** as the key metric connecting marketing spend with business results.
+En este proyecto analizo el desempeño de marketing de Showz Events entre enero de 2017 y diciembre de 2018, con un objetivo claro:
 
----
+Optimizar la inversión en marketing enfocándose en rentabilidad, no solo en volumen o costo.
 
-## Business Context
-Marketing budgets are limited, and not all acquisition channels generate sustainable value.
-This project evaluates which traffic sources should be prioritized, monitored, or eliminated in order to maximize return and avoid inefficient spending.
+🎯 Objetivo del análisis
 
----
+Evaluar el desempeño de distintas fuentes de adquisición.
 
-## Metrics Used
-- **CAC (Customer Acquisition Cost):** Cost to acquire a user
-- **LTV (Lifetime Value):** Revenue generated per user
-- **ROMI:** Relationship between marketing investment and return
+Comparar costo de adquisición con valor generado por los usuarios.
 
-ROMI was selected as the primary decision metric because it directly links spending to profitability.
+Identificar qué canales deben:
 
----
+priorizarse
 
-## Tools & Technologies
-- Python
-- Pandas
-- NumPy
-- Matplotlib / Seaborn
-- Jupyter Notebook
+monitorearse
 
----
+ajustarse o eliminarse
 
-## Key Findings
-- A low CAC alone does **not** guarantee profitability if LTV is weak.
-- ROMI provides a more accurate basis for marketing investment decisions by combining CAC and LTV.
-- **Source 1** is the most profitable channel with a **ROMI of 2.99**, meaning every dollar invested generates nearly three dollars in return.
-- **Source 2 (1.63)** and **Source 9 (1.49)** show solid positive returns with growth potential.
-- **Source 10 (0.89)** and **Source 3 (0.43)** are not profitable and should be reduced or eliminated.
+Apoyar decisiones de marketing basadas en retorno real de la inversión.
 
----
+🧠 Enfoque analítico
 
-## Recommendations
-- **Prioritize investment:** Source 1
-- **Maintain and monitor:** Source 2 and Source 9
-- **Proceed with caution:** Source 4 and Source 5
-- **Reduce or eliminate:** Source 3 and Source 10
+En lugar de analizar métricas de forma aislada, el proyecto se centra en una visión integrada del rendimiento de marketing.
 
-This strategy maximizes marketing efficiency and prevents budget waste.
+Métricas clave utilizadas
 
+CAC (Customer Acquisition Cost): cuánto cuesta adquirir un usuario.
 
----
+LTV (Lifetime Value): cuánto valor genera ese usuario a lo largo del tiempo.
 
-## Conclusions
-The analysis demonstrates that combining **CAC and LTV through ROMI** is critical for effective marketing optimization.
-Focusing on ROMI enables data-driven decisions that align marketing investment with sustainable business growth.
+ROMI (Return on Marketing Investment): relación directa entre inversión y retorno.
 
----
+👉 ROMI se utiliza como métrica principal porque conecta gasto con rentabilidad, facilitando decisiones estratégicas claras.
 
-## Repository Structure
+🔍 Proceso de análisis
+
+Revisión y preparación de los datos
+Se analizaron métricas de adquisición y valor por fuente de tráfico.
+
+Comparación entre canales
+Se evaluó el desempeño relativo de cada fuente, evitando conclusiones basadas únicamente en CAC.
+
+Análisis de rentabilidad
+Se combinó CAC y LTV para calcular ROMI y entender el retorno real de cada inversión.
+
+Generación de recomendaciones accionables
+El foco estuvo en traducir números en decisiones claras para el negocio.
+
+📊 Hallazgos principales
+
+Un CAC bajo no garantiza rentabilidad si el LTV es débil.
+
+ROMI es una métrica más confiable para priorizar inversiones que CAC o LTV por separado.
+
+Source 1 es el canal más rentable, con un ROMI de 2.99
+→ cada dólar invertido genera casi 3 dólares de retorno.
+
+Source 2 (1.63) y Source 9 (1.49) muestran retornos positivos y potencial de crecimiento.
+
+Source 10 (0.89) y Source 3 (0.43) presentan pérdidas y requieren reducción o eliminación.
+
+📌 Recomendaciones estratégicas
+
+Priorizar inversión: Source 1
+
+Mantener y monitorear: Source 2 y Source 9
+
+Evaluar con cautela: Source 4 y Source 5
+
+Reducir o eliminar: Source 3 y Source 10
+
+Esta estrategia permite maximizar el retorno del presupuesto de marketing y evitar desperdicio de recursos.
+
+🛠️ Herramientas utilizadas
+
+Python
+
+Pandas
+
+NumPy
+
+Matplotlib / Seaborn
+
+Jupyter Notebook
+
+GitHub para documentación
+
+🌱 Qué demuestra este proyecto
+
+Este análisis demuestra la capacidad de:
+
+Pensar en términos de impacto de negocio, no solo métricas.
+
+Evaluar inversiones desde una perspectiva de rentabilidad.
+
+Traducir datos financieros y de marketing en decisiones accionables.
+
+Priorizar recursos en contextos de presupuesto limitado.
+
+Comunicar resultados de forma clara y estratégica.
+
+✅ Conclusión
+
+Este proyecto muestra cómo combinar CAC y LTV a través de ROMI permite tomar decisiones de marketing más inteligentes y sostenibles.
+El enfoque orientado a retorno ayuda a alinear inversión en marketing con crecimiento real del negocio.
